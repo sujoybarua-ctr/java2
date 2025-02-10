@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class arrayJava {
     public static void main(String[] args) {
         
@@ -16,8 +17,12 @@ System.out.println(b[4]);
 char [] c= new char[5];
 System.out.println(c[4]);
 //if we want to declare the values of the array in one line then we can do it like this
-int [] d= {1,2,3,4,5};
+int [] d= {1,3,9,6,5};
 System.out.println(d[4]);
+//for sorting the array we can use the sort function
+// to use the sort function must import the Arrays class which is in the util package
+Arrays.sort(d);
+System.out.println(d[2]);
     }
     
 }
