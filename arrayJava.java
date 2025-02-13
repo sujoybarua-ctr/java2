@@ -23,6 +23,14 @@ System.out.println(d[4]);
 // to use the sort function must import the Arrays class which is in the util package
 Arrays.sort(d);
 System.out.println(d[2]);
+int [][]e={{1,4,3,5,4},{3,4,5,5}};
+System.out.println(e[1][2]);
+//to print the whole array we can use the nested for loop
+for(int i=0;i<e.length;i++){
+    for(int j=0;j<e[i].length;j++){
+        System.out.print(e[i][j]);
+    }System.out.println();
+}
     }
     
 }
