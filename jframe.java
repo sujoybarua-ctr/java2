@@ -1,4 +1,5 @@
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 
 import java.awt.Color;
 
@@ -15,6 +16,11 @@ framVar.setResizable(false);// to lock the size of window!!!!!
 ImageIcon imvar= new ImageIcon("pfp_wp.png");
 framVar.setIconImage(imvar.getImage());//JFrame needs getimage() to get the image from ImageIcon
 //changes the icon of the window
-framVar.getContentPane().setBackground(new Color(25,58,58));//used new keyword before color for customizable colours....
+framVar.getContentPane().setBackground(new Color(25,58,58));
+//used new keyword before color for customizable colours....
+JLabel labvar= new JLabel();
+labvar.setText("Sujoy barua window");
+framVar.add(labvar);
+labvar.setIcon(imvar);
     }
 }
